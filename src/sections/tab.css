@@ -1,0 +1,15 @@
+.tab{
+    height: 100%;
+    width: 20%;
+    background-color: #242238;
+    position: fixed; 
+    top: 0;
+    left: 0;
+  }
+  .tab h1{
+    padding: 10%;
+  }
+  .tab ul{
+    padding-left: 20%;
+  }
+  
