@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './projectTag.css'
 
 function ProjectTag ({ techName }) {
     let color = ''
@@ -15,8 +16,8 @@ function ProjectTag ({ techName }) {
     }
     
     return (
-        <div>
-            <h2 style={color={color}}>{techName}</h2>
+        <div className='tag' style={{ backgroundColor: color }}>
+            <p>{techName}</p>
         </div>
     )
 

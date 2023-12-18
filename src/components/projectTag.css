@@ -1,0 +1,13 @@
+.tag{
+    width: fit-content;
+    padding: 3px 15px;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag p{
+    font-size: 16px;
+
+}
