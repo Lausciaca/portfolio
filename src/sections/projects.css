@@ -1,0 +1,12 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+.projects h1:first-child{
+    text-align: center;
+}
+.projectsList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

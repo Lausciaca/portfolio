@@ -1,5 +1,4 @@
 #root{
-  height: 100%;
   display: flex;
   background-color: #292646;
   justify-content: right;
@@ -15,7 +14,7 @@
 .home, .projects{
   width: 100%;
   flex: 1;
-  height: 100vh;
+  min-height: 90vh;
   display: flex;
 }
 .home{
