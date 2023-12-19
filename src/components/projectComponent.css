@@ -17,6 +17,10 @@
 
 
 
+.pjName a{
+    text-decoration: none;
+    color: #a49de6;
+}
 .img{
     overflow: hidden;
     min-height: 100%;
