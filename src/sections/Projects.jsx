@@ -10,12 +10,14 @@ function Projects () {
                     pjName={'Digital clock'} 
                     pjTech={['JS', 'HTML', 'CSS']}
                     pjImg={'/src/assets/digital-clock.png'}
-                    pjText={'Este proyecto web simple ofrece la hora y fecha actuales de forma clara y accesible. Con un diseño minimalista, proporciona una experiencia intuitiva para los usuarios que buscan información temporal rápida. '}
+                    pjText={'This simple web project provides the current time and date in a clear and accessible manner. With a minimalist design, it offers an intuitive experience for users seeking schedule.'}
                 />
                 
                 <ProjectComponent 
                     pjName={'Tic tac toe'} 
                     pjTech={['JS', 'REACT', 'HTML', 'CSS']}
+                    pjImg={'/src/assets/tictactoe.png'}
+                    pjText={"This project, built with React, delivers a clear and accessible gaming experience. Featuring a minimalist design, it provides users with an intuitive interface to enjoy the classic game of Tic Tac Toe."}
                 />
                 
                 <ProjectComponent
