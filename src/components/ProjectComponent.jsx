@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import ProjectTag from './ProjectTag';
 import './projectComponent.css'
 
-function ProjectComponent ({ pjName, pjTech, pjImg, pjText }) {
+function ProjectComponent ({ pjName, pjTech, pjImg, pjText, pjLink }) {
 
     return(
         <div className="pjCard">
@@ -11,7 +11,7 @@ function ProjectComponent ({ pjName, pjTech, pjImg, pjText }) {
             </div>
             <div className="info">
                 <h2 className="pjName">
-                    <a href="https://digitalclock-lau.netlify.app/" target='_blank' rel="noreferrer">
+                    <a href={pjLink} target='_blank' rel="noreferrer">
                         {pjName}
                     </a>
                 </h2>
@@ -36,6 +36,7 @@ ProjectComponent.propTypes = {
     pjName: PropTypes.string,
     pjTech: PropTypes.array,
     pjImg: PropTypes.string,
-    pjText: PropTypes.string
+    pjText: PropTypes.string,
+    pjLink: PropTypes.string
 };
 export default ProjectComponent
