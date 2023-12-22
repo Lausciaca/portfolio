@@ -15,7 +15,7 @@ function Projects () {
                 
                 <ProjectComponent 
                     pjName={'Tic tac toe'} 
-                    pjTech={['JS', 'REACT', 'HTML', 'CSS']}
+                    pjTech={['REACT', 'HTML', 'CSS']}
                     pjImg={'/src/assets/tictactoe.png'}
                     pjText={"This project, built with React, delivers a clear and accessible gaming experience. Featuring a minimalist design, it provides users with an intuitive interface to enjoy the classic game of Tic Tac Toe."}
                 />
@@ -23,11 +23,15 @@ function Projects () {
                 <ProjectComponent
                     pjName={'Hackathon page'}
                     pjTech={['JS', 'HTML', 'CSS']}
+                    pjImg={'/src/assets/hackathon.png'}
+                    pjText={'Built during a hackathon, this app exemplifies my ability to create efficient solutions under tight deadlines. The user-centric design addresses a specific problem with an intuitive interface, showcasing my knack for delivering impactful results quickly.'}
                 />
 
                 <ProjectComponent
                     pjName={'Portfolio'} 
-                    pjTech={['JS', 'REACT', 'HTML', 'CSS']}
+                    pjTech={['REACT', 'HTML', 'CSS']}
+                    pjImg={'/src/assets/portfolio.png'}
+                    pjText={'My portfolio, developed with React, is a digital snapshot that introduces me and showcases my web projects. Its minimalist design offers an intuitive interface, providing insights into my background and highlighting key projects.'}
                 />
             </div>
         </div>

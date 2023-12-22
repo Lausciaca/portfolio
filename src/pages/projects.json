@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "name" : "Digital clock",
+            "tech" : ["JS", "HTML", "CSS"],
+            "img" : "/src/assets/digital-clock.png",
+            "text" : "This simple web project provides the current time and date in a clear and accessible manner. With a minimalist design, it offers an intuitive experience for users seeking schedule.",
+            "link" : "https://digitalclock-lau.netlify.app/"
+        },
+        {
+            "name" : "Tic tac toe",
+            "tech" : ["JS", "REACT", "HTML", "CSS"],
+            "img" : "/src/assets/tictactoe.png",
+            "text" : "This project, built with React, delivers a clear and accessible gaming experience. Featuring a minimalist design, it provides users with an intuitive interface to enjoy the classic game of Tic Tac Toe.",
+            "link" : "https://tictactoereactsc.netlify.app/"
+        }
+    ]
+}
