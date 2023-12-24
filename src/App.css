@@ -17,6 +17,9 @@
   min-height: 90vh;
   display: flex;
 }
+.projects{
+  min-height: 75vh;
+}
 .home{
   justify-content: right;
   padding: 150px;

@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './sections/contact/Contact'
 import Home from './sections/home/Home'
 import Knowledge from './sections/knowledge/Know'
 import Projects from './sections/projects/Projects'
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <Projects />
         <Knowledge />
+        <Contact />
       </div>
     </>
   )
