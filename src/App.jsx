@@ -1,7 +1,8 @@
 import './App.css'
-import Home from './sections/Home'
-import Projects from './sections/Projects'
-import Tab from './sections/Tab'
+import Home from './sections/home/Home'
+import Knowledge from './sections/knowledge/Know'
+import Projects from './sections/projects/Projects'
+import Tab from './sections/tab/Tab'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container-rigth">
         <Home />
         <Projects />
+        <Knowledge />
       </div>
     </>
   )

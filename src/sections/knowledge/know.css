@@ -1,0 +1,25 @@
+.knowledge{
+    /* width: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.know-container{
+    
+}
+
+.know-container .titles{
+    font-size: 40px;
+    text-align: center;
+}
+
+.know-container-imgs img{
+    height: 150px;
+    width: auto;
+    margin: 10px 20px;
+
+}
