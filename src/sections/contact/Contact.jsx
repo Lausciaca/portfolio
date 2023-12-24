@@ -3,7 +3,7 @@ export default function Contact () {
 
 
     return(
-        <div className="contact">
+        <div className="contact" id='contact'>
             <h2 className='title'>Contact me</h2>
             <div className="info">
 
