@@ -6,24 +6,22 @@ function ProjectComponent ({ pjName, pjTech, pjText, pjLink }) {
 
     return(
         <div className="pjCard">
-            <div className="info">
-                <h2 className="pjName">
-                    <a href={pjLink} target='_blank' rel="noreferrer">
-                        {pjName}
-                    </a>
-                </h2>
-                <p className="description">
-                    {pjText}
-                </p>
-                <div className="tags">
-                    {
-                        pjTech.map((tech, index) => (
-                            <h2 key={index} className='tech'>
-                                <ProjectTag techName={tech} />
-                            </h2>
-                        ))
-                    }
-                </div>
+            <h2 className="pjName">
+                <a href={pjLink} target='_blank' rel="noreferrer">
+                    {pjName}
+                </a>
+            </h2>
+            <p className="description">
+                {pjText}
+            </p>
+            <div className="tags">
+                {
+                    pjTech.map((tech, index) => (
+                        <h2 key={index} className='tech'>
+                            <ProjectTag techName={tech} />
+                        </h2>
+                    ))
+                }
             </div>
         </div>
     )
