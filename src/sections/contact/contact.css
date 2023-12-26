@@ -28,11 +28,13 @@
 }
 
 .contact .info .form-container {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
     min-height: 100%;
     margin: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(48, 48, 48);
 }
 .contact .info .form-container form{
     flex: 1;
@@ -43,10 +45,14 @@
 }
 .contact .info .form-container form input{
     height: 50px;
+    background-color: rgb(212, 212, 212);
 }
 .contact .info .form-container form button{
+    color: black;
+    background-color: rgb(212, 212, 212);
     height: 50px;
 }
 .free-text{
+    background-color: rgb(212, 212, 212);
     height: 100px;
 }

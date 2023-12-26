@@ -14,7 +14,6 @@ export default function Contact () {
                 </div>
                 <div className="form-container">
                     <form action="">
-
                         <input type="email" name="" id="" placeholder='Your email'/>
                         <input type="text" name="" id="" placeholder='Matter'/>
                         <textarea className='free-text' name="" id="" placeholder='Text here...'/>
