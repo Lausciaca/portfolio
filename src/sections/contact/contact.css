@@ -44,6 +44,7 @@
     justify-content: space-evenly;
 }
 .contact .info .form-container form input{
+    color: black;
     height: 50px;
     background-color: rgb(212, 212, 212);
 }
@@ -53,6 +54,7 @@
     height: 50px;
 }
 .free-text{
+    color: black;
     background-color: rgb(212, 212, 212);
     height: 100px;
 }
