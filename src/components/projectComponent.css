@@ -21,16 +21,6 @@
     text-decoration: none;
     color: #a49de6;
 }
-.img{
-    overflow: hidden;
-    min-height: 100%;
-}
-.img img{
-    flex: 0 0 50%;
-    width: 100%;
-    height: auto;
-    display: block;
-}
 .info{
     margin-left: 10px;
 }

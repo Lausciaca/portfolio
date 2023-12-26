@@ -2,13 +2,10 @@ import PropTypes from 'prop-types';
 import ProjectTag from './ProjectTag';
 import './projectComponent.css'
 
-function ProjectComponent ({ pjName, pjTech, pjImg, pjText, pjLink }) {
+function ProjectComponent ({ pjName, pjTech, pjText, pjLink }) {
 
     return(
         <div className="pjCard">
-            <div className="img">
-                <img src={ pjImg } alt="" />
-            </div>
             <div className="info">
                 <h2 className="pjName">
                     <a href={pjLink} target='_blank' rel="noreferrer">
@@ -35,7 +32,6 @@ function ProjectComponent ({ pjName, pjTech, pjImg, pjText, pjLink }) {
 ProjectComponent.propTypes = {
     pjName: PropTypes.string,
     pjTech: PropTypes.array,
-    pjImg: PropTypes.string,
     pjText: PropTypes.string,
     pjLink: PropTypes.string
 };
